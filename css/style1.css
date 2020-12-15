@@ -107,9 +107,20 @@ h1 img{
     color:#fff;
     text-shadow:1px 1px 1px #000;
 }
+.scrollNavi li span{
+    display:block;
+    width:3%;
+    height:100%;
+    position:absolute;
+    box-shadow:1px 1px 1px #000;
+    transform:skewX(-30deg);
+    transition:all 0.3s;
+}
 .scrollNavi li.on span{
     width:100%;
+    
 }
+
 
 .scrollNavi li:nth-child(1) span{background:#ff0f51;}
 .scrollNavi li:nth-child(2) span{background:#fffb02;}
